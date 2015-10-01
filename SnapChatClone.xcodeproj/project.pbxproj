@@ -11,6 +11,10 @@
 		081E40971BBD00A200BE818B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 081E40961BBD00A200BE818B /* AppDelegate.m */; };
 		081E40991BBD00A200BE818B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 081E40981BBD00A200BE818B /* Assets.xcassets */; };
 		081E409C1BBD00A200BE818B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 081E409A1BBD00A200BE818B /* LaunchScreen.storyboard */; };
+		081E40A41BBD055100BE818B /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 081E40A31BBD055100BE818B /* MainStoryboard.storyboard */; settings = {ASSET_TAGS = (); }; };
+		081E40A81BBD093200BE818B /* camera.png in Resources */ = {isa = PBXBuildFile; fileRef = 081E40A51BBD093200BE818B /* camera.png */; settings = {ASSET_TAGS = (); }; };
+		081E40A91BBD093200BE818B /* friends.png in Resources */ = {isa = PBXBuildFile; fileRef = 081E40A61BBD093200BE818B /* friends.png */; settings = {ASSET_TAGS = (); }; };
+		081E40AA1BBD093200BE818B /* inbox.png in Resources */ = {isa = PBXBuildFile; fileRef = 081E40A71BBD093200BE818B /* inbox.png */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +25,10 @@
 		081E40981BBD00A200BE818B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		081E409B1BBD00A200BE818B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		081E409D1BBD00A200BE818B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		081E40A31BBD055100BE818B /* MainStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = MainStoryboard.storyboard; path = ../MainStoryboard.storyboard; sourceTree = "<group>"; };
+		081E40A51BBD093200BE818B /* camera.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = camera.png; sourceTree = "<group>"; };
+		081E40A61BBD093200BE818B /* friends.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = friends.png; sourceTree = "<group>"; };
+		081E40A71BBD093200BE818B /* inbox.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = inbox.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +45,7 @@
 		081E40861BBD00A200BE818B = {
 			isa = PBXGroup;
 			children = (
+				081E40AB1BBD093700BE818B /* icons */,
 				081E40911BBD00A200BE818B /* SnapChatClone */,
 				081E40901BBD00A200BE818B /* Products */,
 			);
@@ -56,6 +65,7 @@
 				081E40951BBD00A200BE818B /* AppDelegate.h */,
 				081E40961BBD00A200BE818B /* AppDelegate.m */,
 				081E40981BBD00A200BE818B /* Assets.xcassets */,
+				081E40A31BBD055100BE818B /* MainStoryboard.storyboard */,
 				081E409A1BBD00A200BE818B /* LaunchScreen.storyboard */,
 				081E409D1BBD00A200BE818B /* Info.plist */,
 				081E40921BBD00A200BE818B /* Supporting Files */,
@@ -69,6 +79,16 @@
 				081E40931BBD00A200BE818B /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		081E40AB1BBD093700BE818B /* icons */ = {
+			isa = PBXGroup;
+			children = (
+				081E40A51BBD093200BE818B /* camera.png */,
+				081E40A61BBD093200BE818B /* friends.png */,
+				081E40A71BBD093200BE818B /* inbox.png */,
+			);
+			name = icons;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -129,7 +149,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				081E40A41BBD055100BE818B /* MainStoryboard.storyboard in Resources */,
 				081E40991BBD00A200BE818B /* Assets.xcassets in Resources */,
+				081E40AA1BBD093200BE818B /* inbox.png in Resources */,
+				081E40A91BBD093200BE818B /* friends.png in Resources */,
+				081E40A81BBD093200BE818B /* camera.png in Resources */,
 				081E409C1BBD00A200BE818B /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
